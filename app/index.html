@@ -1,0 +1,77 @@
+<!doctype html>
+
+<html ng-app = "interactiveLecture" lang="de">
+<head>
+  <meta charset="utf-8"/>
+  <title>javaservice</title>
+  <!-- TODO in eigenes css auslagern-->
+  <style>
+    .editor { height: 600px; }
+  </style>
+  <script type="text/javascript" src="bower_components/ace-builds/src-min-noconflict/ace.js"></script>
+  <script type="text/javascript" src="bower_components/angular/angular.js"></script>
+  <script type="text/javascript" src="bower_components/angular-ui-ace/ui-ace.js"></script>
+  <script type="text/javascript" src="bower_components/angular-bootstrap/ui-bootstrap.js"></script>
+  <script type="text/javascript" src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+  <script type="text/javascript" src="bower_components/angular-socket-io/socket.js"></script>
+  <script type="text/javascript" src="bower_components/socket.io-client/socket.io.js"></script>
+  <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  <script type="text/javascript" src="app.js"></script>
+  <script type="text/javascript" src="exercise/codearea/codearea.js"></script>
+  <script type="text/javascript" src="exercise/codearea/code_area_controllers.js"></script>
+  <script type="text/javascript" src="exercise/codearea/code_area_endpoints.js"></script>
+
+
+
+
+  <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+
+
+</head>
+<body>
+<!--TODO die navbar sinnvoll gestalten -->
+<nav id="myNavbar" class="navbar navbar-default navbar-inverse" role="navigation">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Interactive Lecture</a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="" target="_blank">Home</a></li>
+        <li><a href="" target="_blank">About</a></li>
+        <li><a href="" target="_blank">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div ui-view></div>
+<a ui-sref="courses">Route 1</a>
+<a ui-sref="courses.detail">Route 1</a>
+
+ <!-- <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="col-md-2">
+        <p>blubb</p>
+        <p>machen sie einen bla und einen blubb lorem ipsum</p>
+      </div>
+      <div class="col-md-10">
+        <code-area tab-controller="JavaCodeController"></code-area>
+    </div>
+      <div class="row-fluid">
+        <div class="col-md-2"><button class="btn btn-danger disabled btn-block"><span class="glyphicon glyphicon-arrow-right"></span> Aufgabe Überprüfen</button> </div>
+      </div>
+  </div>-->
+</body>
+<!--TODO attributions zu glyphicons.com und anderen sachen die du benutzt hast-->
+</html>
