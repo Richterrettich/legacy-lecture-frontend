@@ -3,32 +3,13 @@ app = express()
 router = express.Router()
 http = require('http').Server(app);
 io = require('socket.io')(http);
-#app.get '/', (req, res)->
-#  res.sendFile 'index.html',  { root: __dirname }
 
 app.use(express.static(__dirname + '/'));
-
-#router.param "id", (req,resp,next,id)->
-#  req.params.id =id
-#  console.log("url is #{req.originalUrl}")
-#  next()
-
-#router.use "/exercises/:id/tests", require("./test_module")(router)
-###router.get "/exercises/:id/tests/results",(req,resp)->
-  id = req.params.id
-  console.log("GET: #{id}")
-
-router.post "/exercises/:id/tests", (req,resp)->
-  id= req.params.id
-  console.log("POST: #{id}")
-
-app.use router###
-
 
 exerciseId = ""
 io.use (socket, next) ->
   exerciseId = socket.request._query.exerciseId
-  console.log("in io.use exerciseId: #{exerciseId}")
+  console.log(socket.request._query)
   #TODO hier das laden der tests initiieren
   #make sure the handshake data looks good as before
   #if error do this:

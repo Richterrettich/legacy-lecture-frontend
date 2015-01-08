@@ -8,6 +8,11 @@
   <style>
     .editor { height: 600px; }
   </style>
+  <script type="text/javascript">
+    String.prototype.capitalize = function() {
+      return this.charAt(0).toUpperCase() + this.slice(1);
+    }
+  </script>
   <script type="text/javascript" src="bower_components/ace-builds/src-min-noconflict/ace.js"></script>
   <script type="text/javascript" src="bower_components/angular/angular.js"></script>
   <script type="text/javascript" src="bower_components/angular-ui-ace/ui-ace.js"></script>
@@ -17,15 +22,15 @@
   <script type="text/javascript" src="bower_components/socket.io-client/socket.io.js"></script>
   <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
   <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-
+  <script type="text/javascript" src="users/exercise/codearea/codearea.js"></script>
+  <script type="text/javascript" src="users/exercise/codearea/code_area_controllers.js"></script>
+  <script type="text/javascript" src="users/exercise/codearea/endpoints/code_area_endpoints.js"></script>
+  <script type="text/javascript" src="users/exercise/codearea/code_tab_services.js"></script>
+  <script type="text/javascript" src="users/exercise/exercise.js"></script>
+  <script type="text/javascript" src="users/courses/courses.js"></script>
+  <script type="text/javascript" src="users/chapters/chapters.js"></script>
+  <script type="text/javascript" src="users/lecture/lecture.js"></script>
   <script type="text/javascript" src="app.js"></script>
-  <script type="text/javascript" src="exercise/codearea/codearea.js"></script>
-  <script type="text/javascript" src="exercise/codearea/code_area_controllers.js"></script>
-  <script type="text/javascript" src="exercise/codearea/code_area_endpoints.js"></script>
-
-
-
-
   <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
 
@@ -56,8 +61,6 @@
   </div>
 </nav>
 <div ui-view></div>
-<a ui-sref="courses">Route 1</a>
-<a ui-sref="courses.detail">Route 1</a>
 
  <!-- <div class="container-fluid">
     <div class="row-fluid">

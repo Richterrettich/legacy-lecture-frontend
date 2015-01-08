@@ -3,26 +3,7 @@
   'use strict';
   var app;
 
-  app = angular.module('interactiveLecture', ['interactiveLecture.codeArea', "ui.router"]);
-
-  app.config([
-    "$stateProvider", "$urlRouterProvider", function($stateProvider, $urlRouterProvider) {
-      $stateProvider.state("courses", {
-        url: "/courses",
-        templateUrl: 'courses/courses.html'
-      });
-      return $stateProvider.state("courses.detail", {
-        url: "/:courseId",
-        templateUrl: 'courses/courses.details.html'
-      });
-
-      /*$stateProvider.state "courses.detail",{
-        url: "/courses/:courseId",
-        templateUrl: 'courses/courses.details.html'
-      }
-       */
-    }
-  ]);
+  app = angular.module('interactiveLecture', ['interactiveLecture.codeArea', "ui.router", "interactiveLecture.courses", "interactiveLecture.chapters", "interactiveLecture.exercise", "interactiveLecture.lectures"]);
 
 }).call(this);
 

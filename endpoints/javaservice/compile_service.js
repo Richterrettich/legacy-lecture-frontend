@@ -17,14 +17,14 @@
       this.facade = new AppFacade(exerciseId);
     }
 
-    CompileService.prototype.compileExercises = function(sourceCode, callback) {
-      return this.facade.compileSourceForErrorJson(sourceCode, AppFacade.Scope.EXERCISE, function(err, compilationResult) {
+    CompileService.prototype.compileExercises = function(codeObject, callback) {
+      return this.facade.compileSourceForErrorJson(codeObject.id, codeObject.code, AppFacade.Scope.EXERCISE, function(err, compilationResult) {
         return callback(compilationResult);
       });
     };
 
-    CompileService.prototype.compileTests = function(sourceCode, callback) {
-      return this.facade.compileSourceForErrorJson(sourceCode, AppFacade.Scope.TEST(function(err, compilationResult) {
+    CompileService.prototype.compileTests = function(codeObject, callback) {
+      return this.facade.compileSourceForErrorJson(codeObject.id, codeObject.code, AppFacade.Scope.TEST(function(err, compilationResult) {
         return callback(compilationResult);
       }));
     };

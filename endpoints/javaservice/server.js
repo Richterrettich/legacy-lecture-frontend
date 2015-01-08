@@ -14,23 +14,11 @@
 
   app.use(express["static"](__dirname + '/'));
 
-
-  /*router.get "/exercises/:id/tests/results",(req,resp)->
-    id = req.params.id
-    console.log("GET: #{id}")
-  
-  router.post "/exercises/:id/tests", (req,resp)->
-    id= req.params.id
-    console.log("POST: #{id}")
-  
-  app.use router
-   */
-
   exerciseId = "";
 
   io.use(function(socket, next) {
     exerciseId = socket.request._query.exerciseId;
-    console.log("in io.use exerciseId: " + exerciseId);
+    console.log(socket.request._query);
     return next();
   });
 

@@ -1,0 +1,20 @@
+<div>
+    <tabset>
+        <tab ng-repeat="tab in codeAreaMainCtrl.tabs" active ="tab.active">
+            <tab-heading>
+                <!--TODO falls Error, den tab markieren. passende Klasse heraussuchen und mit ng-class umsetzen -->
+                <span ng-hide="tab.editing" ng-dblclick="tab.tabController.editTab()">{{tab.title}}</span>
+                <input ng-show="tab.editing" ng-model="tab.title" ng-blur="tab.tabController.doneEditing()" autofocus />
+                <button ng-click="codeAreaMainCtrl.removeTab(tab,$event)" class="btn btn-link btn-xs"><span class="glyphicon glyphicon-remove"></span></button>
+            </tab-heading>
+            <section>
+                <div class="editor" ui-ace="tab.aceOption"  ng-model="tab.content"> </div>
+            </section>
+        </tab>
+        <tab ng-click="codeAreaMainCtrl.addTab()">
+            <tab-heading>
+                <span  class="glyphicon glyphicon-plus"></span>
+            </tab-heading>
+        </tab>
+    </tabset>
+</div>
