@@ -4,7 +4,7 @@ app = angular.module("interactiveLecture.codeArea",['ui.ace','ui.bootstrap',"int
 app.directive "codeArea",()->
   return {
     restrict:"E",
-    templateUrl: "exercise/codearea/codearea.html",
+    templateUrl: "users/exercise/codearea/codearea.html",
     require:["endpointService","endpointServiceConfiguration"],
     scope:{
       endpointService:"@endpointService",
@@ -35,6 +35,7 @@ CodeAreaMainCtrl = ["$scope","$timeout","$injector","$controller","$modal","tabL
       $scope.$emit("errors")
       resultObject.errors.forEach (err)->
         errorTabIds.push(err.tabId)
+        #TODO Uncaught TypeError: Cannot read property 'addError' of undefined... tritt auf, wenn keine gültige KLasse erstellt wurde. vielleicht schon vorher abfangen
         tabListService.addAnnotation(err.tabId,err)
       Object.keys(@tabs).forEach (k)=>
         if errorTabIds.indexOf(parseInt(k)) == -1
@@ -69,7 +70,7 @@ CodeAreaMainCtrl = ["$scope","$timeout","$injector","$controller","$modal","tabL
   @removeTab=(tab,event)->
     event.preventDefault()
     modalInstance = $modal.open {
-      templateUrl: 'exercise/codearea/delete-modal-template.html',
+      templateUrl: 'users/exercise/codearea/delete-modal-template.html',
       controller: 'DeleteModalController',
       size: "sm"
     }

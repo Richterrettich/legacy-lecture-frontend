@@ -8,7 +8,7 @@
   app.directive("codeArea", function() {
     return {
       restrict: "E",
-      templateUrl: "exercise/codearea/codearea.html",
+      templateUrl: "users/exercise/codearea/codearea.html",
       require: ["endpointService", "endpointServiceConfiguration"],
       scope: {
         endpointService: "@endpointService",
@@ -72,7 +72,7 @@
         var modalInstance;
         event.preventDefault();
         modalInstance = $modal.open({
-          templateUrl: 'exercise/codearea/delete-modal-template.html',
+          templateUrl: 'users/exercise/codearea/delete-modal-template.html',
           controller: 'DeleteModalController',
           size: "sm"
         });

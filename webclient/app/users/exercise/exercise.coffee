@@ -30,8 +30,8 @@ exercise.config ["$stateProvider", "$urlRouterProvider",($stateProvider, $urlRou
 
   $stateProvider.state "exercise",{
     abstract:true
-    url: "/courses/:courseId/chapters/:chapterId/sections/:sectionId/exercise/:exerciseId",
-    templateUrl:"exercise/exercise.html"
+    url: "users/courses/:courseId/chapters/:chapterId/sections/:sectionId/exercise/:exerciseId",
+    templateUrl:"users/exercise/exercise.html"
     resolve:{
       courseId:['$stateParams',($stateParams)->
         return $stateParams.courseId
@@ -52,7 +52,7 @@ exercise.config ["$stateProvider", "$urlRouterProvider",($stateProvider, $urlRou
 
   $stateProvider.state "exercise.code",{
     url: "/code/:language",
-    templateUrl:"exercise/exercise.code.html"
+    templateUrl:"users/exercise/exercise.code.html"
     controller: ["$scope","$stateParams","courseId","chapterId","sectionId","exerciseId", ExerciseCodeController]
   }
 ]

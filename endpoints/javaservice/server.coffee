@@ -12,7 +12,7 @@ io.use (socket, next) ->
   console.log(socket.request._query)
   #TODO hier das laden der tests initiieren
   #make sure the handshake data looks good as before
-  #if error do this:
+  #if error
   #next(new Error('not authorized');
   #else just call next
   next();
@@ -22,6 +22,7 @@ io.on 'connection', (socket)->
   socket.on 'exerciseCode', (code)->
     console.log("got code! #{code}")
     compileService.compileExercises code,(compilationResult)->
+      #TODO this is the result: undefined... result sollte immer ein objekt zurückliefern.
       console.log("this is the result: #{compilationResult}")
       socket.emit('exerciseCompilationResult', compilationResult)
 

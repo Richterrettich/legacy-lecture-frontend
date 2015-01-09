@@ -2,76 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67e80f6b-a4a6-4670-953f-9c9681557386" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webclient/app/users/exercise/codearea/code_area_controllers.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webclient/app/users/exercise/codearea/code_area_controllers.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webclient/app/users/exercise/codearea/code_area_controllers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webclient/app/users/exercise/codearea/endpoints/code_area_endpoints.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webclient/app/users/exercise/codearea/endpoints/code_area_endpoints.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webclient/app/users/exercise/codearea/endpoints/code_area_endpoints.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webclient/app/users/exercise/codearea/code_tab_services.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webclient/app/users/exercise/codearea/codearea.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webclient/app/users/exercise/codearea/codearea.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webclient/app/users/exercise/codearea/codearea.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webclient/app/users/exercise/codearea/codearea.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webclient/app/users/exercise/exercise.code.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webclient/app/users/exercise/exercise.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webclient/app/users/exercise/exercise.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webclient/app/users/exercise/exercise.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webclient/app/users/exercise/exercise.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webclient/app/users/lecture/lecture.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webclient/app/users/exercise/codearea/endpoints/local_endpoint.coffee" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webclient/app/exercise/codearea/code_area_controllers.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webclient/app/exercise/codearea/code_area_controllers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webclient/app/exercise/codearea/code_area_controllers.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webclient/app/exercise/codearea/code_area_endpoints.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webclient/app/exercise/codearea/code_area_endpoints.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webclient/app/exercise/codearea/code_area_endpoints.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webclient/app/exercise/codearea/codearea.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webclient/app/exercise/codearea/codearea.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webclient/app/exercise/codearea/codearea.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webclient/app/exercise/codearea/codearea.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webclient/app/exercise/exercise.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webclient/app/exercise/exercise.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webclient/app/exercise/exercise.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webclient/app/lecture/lecture.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webclient/app/view2/view2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webclient/app/view2/view2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webclient/app/view2/view2_test.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/webclient/app/chapters/chapters.coffee" afterPath="$PROJECT_DIR$/webclient/app/users/chapters/chapters.coffee" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/webclient/app/chapters/chapters.js" afterPath="$PROJECT_DIR$/webclient/app/users/chapters/chapters.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/webclient/app/chapters/chapters.js.map" afterPath="$PROJECT_DIR$/webclient/app/users/chapters/chapters.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/webclient/app/components/version/interpolate-filter.js" afterPath="$PROJECT_DIR$/webclient/app/users/components/version/interpolate-filter.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/webclient/app/components/version/interpolate-filter_test.js" afterPath="$PROJECT_DIR$/webclient/app/users/components/version/interpolate-filter_test.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/webclient/app/components/version/version-directive.js" afterPath="$PROJECT_DIR$/webclient/app/users/components/version/version-directive.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/webclient/app/components/version/version-directive_test.js" afterPath="$PROJECT_DIR$/webclient/app/users/components/version/version-directive_test.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/webclient/app/components/version/version.js" afterPath="$PROJECT_DIR$/webclient/app/users/components/version/version.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/webclient/app/components/version/version_test.js" afterPath="$PROJECT_DIR$/webclient/app/users/components/version/version_test.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/webclient/app/courses/courses.coffee" afterPath="$PROJECT_DIR$/webclient/app/users/courses/courses.coffee" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/webclient/app/courses/courses.details.html" afterPath="$PROJECT_DIR$/webclient/app/users/courses/courses.details.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/webclient/app/courses/courses.html" afterPath="$PROJECT_DIR$/webclient/app/users/courses/courses.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/webclient/app/courses/courses.js" afterPath="$PROJECT_DIR$/webclient/app/users/courses/courses.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/webclient/app/courses/courses.js.map" afterPath="$PROJECT_DIR$/webclient/app/users/courses/courses.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/webclient/app/exercise/codearea/delete-modal-template.html" afterPath="$PROJECT_DIR$/webclient/app/users/exercise/codearea/delete-modal-template.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/webclient/app/lecture/lecture.coffee" afterPath="$PROJECT_DIR$/webclient/app/users/lecture/lecture.coffee" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/webclient/app/lecture/lecture.js" afterPath="$PROJECT_DIR$/webclient/app/users/lecture/lecture.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/webclient/app/sections/sections.coffee" afterPath="$PROJECT_DIR$/webclient/app/users/sections/sections.coffee" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/webclient/app/sections/sections.js" afterPath="$PROJECT_DIR$/webclient/app/users/sections/sections.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/webclient/app/sections/sections.js.map" afterPath="$PROJECT_DIR$/webclient/app/users/sections/sections.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webclient/app/app.coffee" afterPath="$PROJECT_DIR$/webclient/app/app.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webclient/app/app.js.map" afterPath="$PROJECT_DIR$/webclient/app/app.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webclient/app/app.js" afterPath="$PROJECT_DIR$/webclient/app/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoints/javaservice/compile_service.coffee" afterPath="$PROJECT_DIR$/endpoints/javaservice/compile_service.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoints/javaservice/compile_service.js.map" afterPath="$PROJECT_DIR$/endpoints/javaservice/compile_service.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoints/javaservice/compile_service.js" afterPath="$PROJECT_DIR$/endpoints/javaservice/compile_service.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webclient/app/users/exercise/codearea/code_tab_services.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webclient/app/users/exercise/codearea/code_tab_services.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webclient/app/users/exercise/codearea/endpoints/local_endpoint.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webclient/app/users/exercise/codearea/endpoints/local_endpoint.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webclient/app/users/exercise/codearea/codearea.coffee" afterPath="$PROJECT_DIR$/webclient/app/users/exercise/codearea/codearea.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webclient/app/users/exercise/codearea/codearea.js.map" afterPath="$PROJECT_DIR$/webclient/app/users/exercise/codearea/codearea.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webclient/app/users/exercise/codearea/codearea.js" afterPath="$PROJECT_DIR$/webclient/app/users/exercise/codearea/codearea.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webclient/app/users/exercise/exercise.coffee" afterPath="$PROJECT_DIR$/webclient/app/users/exercise/exercise.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webclient/app/users/exercise/exercise.js.map" afterPath="$PROJECT_DIR$/webclient/app/users/exercise/exercise.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webclient/app/users/exercise/exercise.js" afterPath="$PROJECT_DIR$/webclient/app/users/exercise/exercise.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webclient/app/index.html" afterPath="$PROJECT_DIR$/webclient/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webclient/app/users/lecture/lecture.coffee" afterPath="$PROJECT_DIR$/webclient/app/users/lecture/lecture.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webclient/app/users/lecture/lecture.js.map" afterPath="$PROJECT_DIR$/webclient/app/users/lecture/lecture.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webclient/app/users/lecture/lecture.js" afterPath="$PROJECT_DIR$/webclient/app/users/lecture/lecture.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoints/javaservice/server.coffee" afterPath="$PROJECT_DIR$/endpoints/javaservice/server.coffee" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoints/javaservice/server.js.map" afterPath="$PROJECT_DIR$/endpoints/javaservice/server.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/endpoints/javaservice/server.js" afterPath="$PROJECT_DIR$/endpoints/javaservice/server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webclient/test.coffee" afterPath="$PROJECT_DIR$/webclient/test.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webclient/test.js.map" afterPath="$PROJECT_DIR$/webclient/test.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webclient/test.js" afterPath="$PROJECT_DIR$/webclient/test.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="untitled.iws" />
@@ -96,31 +42,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="codearea.coffee" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webclient/app/users/exercise/codearea/codearea.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1455">
+              <caret line="37" column="167" selection-start-line="37" selection-start-column="167" selection-end-line="37" selection-end-column="167" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.coffee" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/endpoints/javaservice/server.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+              <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="courses.coffee" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webclient/app/users/courses/courses.coffee">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+              <caret line="3" column="31" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chapters.coffee" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webclient/app/users/chapters/chapters.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="exercise.coffee" pinned="false" current-in-tab="true">
+      <file leaf-file-name="exercise.coffee" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webclient/app/users/exercise/exercise.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.12313433" vertical-offset="171" max-vertical-offset="975">
-              <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="975">
+              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webclient/app/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.225" vertical-offset="585" max-vertical-offset="1275">
+              <caret line="48" column="38" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.coffee" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webclient/app/app.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+              <caret line="1" column="70" selection-start-line="1" selection-start-column="70" selection-end-line="1" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lecture.coffee" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webclient/app/users/lecture/lecture.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+              <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -183,15 +169,18 @@
         <option value="$PROJECT_DIR$/webclient/app/exercise/codearea/endpoints/local_endpoint.coffee" />
         <option value="$PROJECT_DIR$/webclient/app/exercise/exercise.code.html" />
         <option value="$PROJECT_DIR$/webclient/app/exercise/codearea/endpoints/code_area_endpoints.coffee" />
-        <option value="$PROJECT_DIR$/endpoints/javaservice/server.coffee" />
         <option value="$PROJECT_DIR$/endpoints/javaservice/compile_service.coffee" />
         <option value="$PROJECT_DIR$/webclient/app/exercise/codearea/code_area_controllers.coffee" />
         <option value="$PROJECT_DIR$/webclient/app/exercise/codearea/codearea.coffee" />
         <option value="$PROJECT_DIR$/webclient/app/exercise/codearea/code_tab_services.coffee" />
         <option value="$PROJECT_DIR$/webclient/app/exercise/codearea/codearea.html" />
-        <option value="$PROJECT_DIR$/webclient/app/index.html" />
         <option value="$PROJECT_DIR$/webclient/app/users/courses/courses.coffee" />
         <option value="$PROJECT_DIR$/webclient/app/users/chapters/chapters.coffee" />
+        <option value="$PROJECT_DIR$/webclient/app/users/lecture/lecture.coffee" />
+        <option value="$PROJECT_DIR$/webclient/app/users/exercise/exercise.coffee" />
+        <option value="$PROJECT_DIR$/endpoints/javaservice/server.coffee" />
+        <option value="$PROJECT_DIR$/webclient/app/users/exercise/codearea/codearea.coffee" />
+        <option value="$PROJECT_DIR$/webclient/app/index.html" />
       </list>
     </option>
   </component>
@@ -349,7 +338,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="courses" />
+              <option name="myItemId" value="exercise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codearea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -375,12 +368,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="chapters" />
+              <option name="myItemId" value="courses" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chapters.coffee" />
-              <option name="myItemType" value="com.intellij.plugins.watcher.projectView.NestingTreeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -505,7 +494,13 @@
       <option name="project" value="LOCAL" />
       <updated>1419857961228</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="initial commit">
+      <created>1420713969290</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1420713969290</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -532,14 +527,15 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21514423" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21445782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25440452" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25440452" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39903846" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32692307" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32650602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47831327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -547,7 +543,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32771084" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -600,14 +595,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webclient/app/users/exercise/codearea/codearea.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1005" max-vertical-offset="1455">
-          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webclient/app/users/exercise/codearea/code_area_controllers.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="600">
@@ -897,24 +884,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/endpoints/javaservice/server.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/endpoints/javaservice/compile_service.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
           <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webclient/app/users/exercise/codearea/codearea.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="606" max-vertical-offset="1440">
-          <caret line="80" column="41" selection-start-line="80" selection-start-column="41" selection-end-line="80" selection-end-column="41" />
           <folding />
         </state>
       </provider>
@@ -943,6 +916,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/webclient/app/users/chapters/chapters.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16832918" vertical-offset="0" max-vertical-offset="802">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webclient/app/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="802">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webclient/app/users/exercise/exercise.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="113" max-vertical-offset="975">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/endpoints/javaservice/server.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webclient/app/users/exercise/codearea/codearea.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1455">
+          <caret line="37" column="167" selection-start-line="37" selection-start-column="167" selection-end-line="37" selection-end-column="167" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webclient/app/users/courses/courses.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/webclient/app/app.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
@@ -951,42 +972,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webclient/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="1275">
-          <caret line="23" column="100" selection-start-line="23" selection-start-column="100" selection-end-line="23" selection-end-column="100" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webclient/app/users/lecture/lecture.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
-          <caret line="0" column="58" selection-start-line="0" selection-start-column="58" selection-end-line="0" selection-end-column="58" />
+          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webclient/app/users/courses/courses.coffee">
+    <entry file="file://$PROJECT_DIR$/webclient/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webclient/app/users/chapters/chapters.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webclient/app/users/exercise/exercise.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12313433" vertical-offset="171" max-vertical-offset="975">
-          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.225" vertical-offset="585" max-vertical-offset="1275">
+          <caret line="48" column="38" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
           <folding />
         </state>
       </provider>

@@ -53,13 +53,13 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="" target="_blank">Home</a></li>
-        <li><a href="" target="_blank">About</a></li>
-        <li><a href="" target="_blank">Contact</a></li>
+        <li class="active"><a ui-sref="courses">Kursübersicht</a></li>
+        <li><a href="" target="_blank">Bugreport</a></li>
       </ul>
     </div>
   </div>
 </nav>
+<button ui-sref='exercise.code({language:"java",courseId:"1",chapterId:"1",sectionId:"1",exerciseId:"1"})'></button>
 <div ui-view></div>
 
  <!-- <div class="container-fluid">

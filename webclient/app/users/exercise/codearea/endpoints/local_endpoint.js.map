@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "local_endpoint.js",
+  "sourceRoot": "",
+  "sources": [
+    "local_endpoint.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA,MAAA,qCAAA;;AAAA,EAAA,eAAA,GAAkB,OAAO,CAAC,MAAR,CAAe,8CAAf,CAAlB,CAAA;;AAAA,EAEM;AAIQ,IAAA,8BAAA,GAAA,CAAZ;;gCAAA;;MANF,CAAA;;AAAA,EASA,eAAe,CAAC,OAAhB,CAAwB,sBAAxB,CATA,CAAA;AAAA"
+}
