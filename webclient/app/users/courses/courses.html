@@ -1,2 +1,12 @@
 <h1>Kursangebot der Hochschule-Trier</h1>
-<div ui-view></div>
+<div class="container">
+
+    <div class="row">
+        <div   ng-repeat="course in courses" class="col-sm-6 col-md-4 col-lg-3"><p>course{{$index}}</p></div>
+      <!--  <div ng-show="$index%2==0" class="clearfix visible-sm-block"></div>
+        <div ng-show="$index%3==0" class="clearfix visible-md-block"></div>
+        <div ng-show="$index%4==0" class="clearfix visible-lg-block"></div>-->
+    </div>
+
+</div>
+
