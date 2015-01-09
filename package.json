@@ -8,7 +8,10 @@
   "dependencies":{
     "java":"latest",
     "express":"4.x",
-    "socket.io":"1.x"
+    "socket.io":"1.x",
+    "grunt-ngdocs": "latest",
+    "grunt-contrib-connect": "latest",
+    "grunt-contrib-clean": "latest"
   },
   "devDependencies": {
     "karma": "~0.10",

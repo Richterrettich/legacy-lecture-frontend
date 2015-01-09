@@ -1,6 +1,9 @@
 'use strict'
 app = angular.module("interactiveLecture.codeArea",['ui.ace','ui.bootstrap',"interactiveLecture.codeArea.controllers","interactiveLecture.codeTabServices"])
 
+###*
+  # @ngdoc directive
+###
 app.directive "codeArea",()->
   return {
     restrict:"E",

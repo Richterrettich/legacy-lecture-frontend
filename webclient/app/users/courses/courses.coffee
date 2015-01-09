@@ -1,9 +1,12 @@
 courses = angular.module("interactiveLecture.courses",[])
 
-
+###
+  @ngdoc controller
+###
 class CoursesController
   constructor:($scope)->
     $scope.courses = [{courseId:1,title:"Grundlagen Programmierung"},{courseId:2,title:"Programmierung"}]
+    console.log("hier")
 
 
 

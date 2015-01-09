@@ -1,3 +1,8 @@
+###*
+  @ngdoc directive
+  @param blubb
+###
+
 class Hugo
   constructor:()->
     @blubb=()->
